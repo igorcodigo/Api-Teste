@@ -8,7 +8,7 @@ CORS(app)  # Habilita CORS para todas as rotas
 # Lista de tokens válidos
 valid_tokens = ["4422313123", "123213551"]
 debit_tokens = ["88412246", "991230241"]
-person_tokens = ["igor","trincado","gabriel","cesar","bolacha"]
+person_tokens = ["igor","trincado","gabriel","cesar","bolacha","deputado","dede","gabriel gordao"]
 
 @app.route('/get_status', methods=['GET'])
 def get_status():
